@@ -106,7 +106,7 @@ li a:hover {
 }
 /* section hero */
 .hero {
-    max-width: 130rem;
+    /* max-width: 130rem; */
    
     display:flex;
    padding-top: 100px;

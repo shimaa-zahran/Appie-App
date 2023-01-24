@@ -1,4 +1,15 @@
 @media(max-width: 48em){
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 62.5%;
+        font-family: "Roboto", sans-serif;
+      
+    }
     .nav-list {
         display: none;
     }
@@ -17,9 +28,7 @@
         gap: 0;
        
     }
-    .hero-img img {
-   align-items: center;
-    }
+    
     .icon-mobile-nav{
         display: block;
         padding-left: 6rem;
@@ -39,7 +48,12 @@
     }
     .hero{
         display: block;
-    }
+    }.hero-img img{
+        width: 50%;
+margin-left: 9rem;
+        
+        
+        }
    .work-fast {
         grid-template-columns: repeat(1, 1fr);
   
